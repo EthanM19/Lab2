@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-
+  <script defer src="Js/Java.js"></script>
   
   <title> Ethan Moroz Portfolio
   </title>
@@ -20,9 +19,16 @@
     <li><a class="nav" href="#Photo">Photo</a></li>
     <li><a class="nav" href="#Top">Top 3</a></li>
     <li><a class="nav" href="#Contact">Contact</a></li>
+   
   </ul>
 
 </head>
+
+<button id="showAlertButton">Show alert</button>
+
+<button id="btn-counter">Increment</button>
+
+<p id="txt-counter">Number: 1</p>
 
 <body>
   <h2 id="Intro"> Introduction </h2>
@@ -32,6 +38,12 @@
 
   Since Ive played football for most of my life, most of my hobbies surrond football as I spend my whole sunday usually watching football games. On top of watching the NFL and CFL I also coach two camps for developing football skills for the younger generation. Since I have so many injuries and was forced to quite football, it allows me to still be apart of the sport and share my knowledge.
 </p> 
+
+<p>
+  <h1>Even and Odd Numbers</h1>
+    <ol id="numbers"></ol>
+</p>
+
 <h3 id="Photo"> Photos </h3> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
    
@@ -45,7 +57,6 @@
    </figure>
   <figcaption>This is a photo I use for my linkedIn. This was part of a portfolio assignment.</figcaption>
  <h4 id="Top"> Top 3 Video Games </h4>
- 
  <table>
   <tr>
     <th>Top 3</th>
@@ -81,11 +92,12 @@
 
 <h4>
 <Footer>
-  &copy; Ethan Moroz
+  <p> </p>
   <figure>
     <img src="https://www.linkedin.com/in/ethan-moroz-378bab235/" alt= "image" height="350" width="350" class="center">  
 </figure>
- 
+ <p><span id="yeardate"></span> &copy; EM, All Rights Reserved</p>
+
 </Footer>
 </h4>
 
